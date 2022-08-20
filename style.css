@@ -1,43 +1,96 @@
-ul {
-    list-style: none;
-}
-
-li {
-    color: #E5E7EB;
-}
-
 body {
-    margin: 0;
     padding: 0;
-
+    margin: 0;
 
 }
 
-.header-links {
+.container {
     display: flex;
-    gap: 15px;
-    margin-right: 120px;
-    flex-wrap: wrap;
-
+    flex-direction: column;
 }
 
+/* Header*/
 .header {
+    display: flex;
     background-color: #1F2937;
-    display: flex;
-    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+
 }
 
-.header .logo {
 
+.links {
     display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    margin-left: auto;
+}
+
+
+.header a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+
+.logo img {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+    border-radius: 60%;
+}
+
+/*Information part*/
+.information {
+    background-color: #1F2937;
+    font-family: 'Roboto', arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.information p {
+    color: #E5E7EB;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
     flex-wrap: wrap;
-    border-radius: 70%;
-    width: 150px;
-    height: 150px;
+    margin-left: 150px;
+    text-align: left;
 }
 
-img {
-    height: 100%;
-    width: 100%;
-
+.information-img img {
+    height: 400px;
+    width: 500px;
+    padding-right: 100px;
 }
+
+.paragraph button {
+    margin-right: auto;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Roboto', arial;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+
+/* Types of birds*/
