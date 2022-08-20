@@ -1,0 +1,43 @@
+ul {
+    list-style: none;
+}
+
+li {
+    color: #E5E7EB;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+    margin-right: 120px;
+    flex-wrap: wrap;
+
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .logo {
+
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 70%;
+    width: 150px;
+    height: 150px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+
+}
