@@ -128,3 +128,23 @@ body {
     gap: 140px;
     padding-left: 30px;
 }
+
+/* Quote*/
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote p {
+    font-size: 36px;
+    align-self: center;
+}
+
+.quote b {
+    text-align: right;
+    padding-right: 400px;
+    font-size: 24px;
+}
