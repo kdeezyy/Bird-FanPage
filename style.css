@@ -94,3 +94,37 @@ body {
 }
 
 /* Types of birds*/
+.types ul {
+    list-style: none;
+}
+
+.types h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', arial;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.pictures ul {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+.pictures img {
+    width: 240px;
+    height: 240px;
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', arial;
+    gap: 140px;
+    padding-left: 30px;
+}
