@@ -25,7 +25,6 @@ body {
     display: flex;
     justify-content: flex-end;
     padding-right: 100px;
-    margin-left: auto;
 }
 
 
@@ -161,7 +160,7 @@ body {
     margin-left: 170px;
     margin-right: 170px;
     border-radius: 10px;
-
+    margin-bottom: 38px;
 
 }
 
@@ -196,8 +195,8 @@ body {
 .copyright {
     display: flex;
     background-color: #1F2937;
-    align-self: stretch;
     justify-content: center;
+
 }
 
 .copyright p {
